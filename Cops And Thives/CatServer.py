@@ -79,6 +79,7 @@ def readingBinFile():
 
 
 if __name__ == '__main__':
+
     text, rowLength = readingBinFile()
     modified_text = text.replace("1", "*")
     modified_text = modified_text.replace("0", " ")
