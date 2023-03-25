@@ -116,3 +116,7 @@ receive_thread.start()
 # Press the green button in the gutter to run the script.
 def main():
     root.mainloop()
+
+
+if __name__ == '__main__':
+    main()

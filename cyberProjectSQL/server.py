@@ -119,7 +119,7 @@ def main():
         clients.append(client)
 
         # create a new thread to handle the client
-        thread = threading.Thread(target=handle_client, args=(client,))
+        thread = threading.Thread(target=handle_client, args=(client, address))
         thread.start()
 
 
